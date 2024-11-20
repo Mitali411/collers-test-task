@@ -1,22 +1,16 @@
-import React from 'react'
 import Navbar from './navbar'
 import HeroSection from './heroSection'
-import CategorySection from './category'
-import ProductSection from './ProductSection'
 import Join from './join'
+import ProductSection from './productSection'
 
 const Home = () => {
   return (
-<>
-
-<Navbar/>
-<HeroSection/>
-<CategorySection/>
-<ProductSection/>
-<Join/>
-
-
-</>
+    <>
+      <Navbar />
+      <HeroSection />
+      <ProductSection />
+      <Join />
+    </>
   )
 }
 
