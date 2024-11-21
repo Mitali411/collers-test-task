@@ -18,15 +18,15 @@ const ProductSection = () => {
         </div>
       </div>
 
-      <Row className="product-cards-container" style={{ display:"flex" ,marginLeft:"300px"}}>
+      <Row className="product-cards-container">
         {/* Card 1 */}
         <Col xs={12} md={4}>
-      
-          <Card className="product-card">
+          {/* <img src={img11} style={{ width: "271px", height: "161px", borderRadius: "50px", transform: "translate(0, -30%)", position: "absolute" }} /> */}
+          <Card className="product-card" style={{ position: "relative" }}>
             <Card.Body>
               <Card.Img variant="top" src={img6} className="product-image" />
               <Card.Title className="product-card-title">Title</Card.Title>
-              {/* <img src={img11} style={{ width:"271px",height:"161px",right:"306px",borderRadius:"50px",zIndex:1,  transform: "translate(0, -30%)", position:"absolute"}}/>          */}
+
               <Card.Text className="product-card-text">
                 Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.
               </Card.Text>
@@ -38,8 +38,8 @@ const ProductSection = () => {
         </Col>
 
         <Col xs={12} md={4}>
-        <img src={img9} style={{ width:"161px",height:"161px",borderRadius:"50px",   transform: "translate(0, -30%)", position:"absolute"}}/>
-          <Card className="product-card" style={{position:"relative"}}>
+          <img src={img9} style={{ width: "161px", height: "161px", borderRadius: "50px", transform: "translate(0, -30%)", position: "absolute" }} />
+          <Card className="product-card" style={{ position: "relative" }}>
             <Card.Body>
               <Card.Img variant="top" src={img7} className="product-image" />
               <Card.Title className="product-card-title">Title</Card.Title>
@@ -49,15 +49,16 @@ const ProductSection = () => {
               <Button variant="primary" className="buy-button">
                 Buy Now
               </Button>
-              <img src={img10} style={{ width:"161px",height:"132px",borderRadius:"50px", left:513, position:"absolute"}}/>
+
             </Card.Body>
           </Card>
         </Col>
 
 
         <Col xs={12} md={4}>
-          <Card className="product-card">
-          {/* <img src={img12} style={{ width:"161px",height:"161px",right:"306px",borderRadius:"50px",zIndex:1,  transform: "translate(0, -30%)", position:"absolute"}}/>          */}
+          <img src={img10} style={{ width: "161px", height: "132px", borderRadius: "50px", left: 40, position: "absolute", transform: "translate(0, -30%)", top: "165%" }} />
+          <Card className="product-card" style={{ position: "relative" }}>
+
             <Card.Body>
               <Card.Img variant="top" src={img8} className="product-image" />
               <Card.Title className="product-card-title">Title</Card.Title>
@@ -67,6 +68,7 @@ const ProductSection = () => {
               <Button variant="primary" className="buy-button">
                 Buy Now
               </Button>
+
             </Card.Body>
           </Card>
         </Col>
