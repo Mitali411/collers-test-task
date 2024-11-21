@@ -56,7 +56,7 @@ const ProductSection = () => {
 
 
         <Col xs={12} md={4}>
-          <img src={img10} style={{ width: "161px", height: "132px", borderRadius: "50px", left: 40, position: "absolute", transform: "translate(0, -30%)", top: "165%" }} />
+          {/* <img src={img10} style={{ width: "161px", height: "132px", borderRadius: "50px", left: 40, position: "absolute", transform: "translate(0, -30%)", top: "165%" }} /> */}
           <Card className="product-card" style={{ position: "relative" }}>
 
             <Card.Body>

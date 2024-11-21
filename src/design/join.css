@@ -69,9 +69,10 @@
 }
 
 .join-image {
-  width: 100%;
-  max-width: 400px;
+  width: 520px;
+  height: 350px;
   border-radius: 16px;
+  position: relative;
 }
 
 

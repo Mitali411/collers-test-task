@@ -21,16 +21,19 @@
   font-weight: 800;
   color: white;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 24px !important;
+  position: relative;
+  right: 380px;
 }
 
 .signup-buttons {
   color: white;
-  background-color: #0F172A;
+  background-color: #0F172A !important;
   border-radius: 8px;
-  padding: 12px 24px;
+  padding: 12px 24px !important;
   border: none;
-  margin: 20px auto;
+  position: relative;
+  left: 300px
 }
 
 .product-cards-container {
