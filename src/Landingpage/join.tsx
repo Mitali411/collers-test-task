@@ -4,7 +4,8 @@ import desktop from "../Images/Desktop.png"
 import check from "../Images/check.png"
 import shape1 from '../Images/Rectangle 28.png'
 import shape2 from "../Images/Rectangle 30.png"
-
+import shape3 from "../Images/Rectangle 25 (2).png"
+import shape4 from "../Images/Rectangle 26 (1).png"
 const Join = () => {
   return (
     <div className="join-section">
@@ -31,6 +32,12 @@ const Join = () => {
           <div className="image-content">
             <img src={shape1} style={{ position: "absolute", height: "85px", width: "84p", bottom: "66px", zIndex: 1, right: 340 }} />
             <img src={shape2} style={{ position: "absolute", height: "527px", width: "521px", right: "22px", top: "-66px" }} />
+            < img src={shape4} style={{ position: "absolute", height: "218px", width: "218px", top: "66%", left: "86%", }} />
+            <img src={shape3} style={{
+              position: "absolute", height: "85px", width: "84p", top: "66%", borderRadius: "50%", left: "84%"
+            }} />
+
+
             <img src={desktop} alt="Join us illustration" className="join-image" />
           </div>
         </Card.Body>

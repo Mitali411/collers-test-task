@@ -82,8 +82,8 @@
 
 .buy-button {
   width: 100%;
-  background-color: #0F172A;
-  border: 1px solid white;
+  background-color: #0F172A !important;
+  border: 1px solid white !important;
   color: white;
 }
 
@@ -100,7 +100,6 @@
 @media (max-width: 992px) {
   .product-card {
     flex: 1 1 calc(50% - 20px);
-    /* 2 cards per row */
   }
 
   .section-title {
@@ -131,7 +130,6 @@
 
   .product-card {
     flex: 1 1 100%;
-    /* Single card per row */
     padding: 15px;
   }
 
